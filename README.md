@@ -30,7 +30,7 @@ Below is a description of what we will cover in each phase of the interview. Wil
 ### Phase 3 - Kubernetes
 
 - Create a namespace that is dynamic based on branch and commit id
-- Deploy the file Kubernetes manifest 
+- Deploy the file Kubernetes manifest
 
 ### Phase 4 - Fault Tolerance
 
@@ -45,7 +45,9 @@ Below is a description of what we will cover in each phase of the interview. Wil
 ## Names Of Contexts / Integrations
 
 Docker: cf-support
+
 Git: cf-support-bot
+
 Kubernetes Cluster: k8s-interview
 
 ## Docker image
