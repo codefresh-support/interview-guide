@@ -54,6 +54,7 @@ Images start with `cfsupport`. For example `cfsupport/mian:latest`
 
 ## Directory Structure of the Repository
 
+```bash
 .
 ├── LICENSE
 ├── README.md
@@ -94,3 +95,4 @@ Images start with `cfsupport`. For example `cfsupport/mian:latest`
     ├── templates
     │   └── kube-deployment.yml
     └── values.yaml
+```
