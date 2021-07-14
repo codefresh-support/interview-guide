@@ -17,7 +17,7 @@ Below is a description of what we will cover in each phase of the interview. Wil
 ### Phase 1 - YAML Validation
 
 - Correct the provided YAML
-- Make sure there are no Validation Errors
+- Make sure there are no YAML Validation Errors
 
 ### Phase 2 - Misconfigurations
 
@@ -25,21 +25,21 @@ Below is a description of what we will cover in each phase of the interview. Wil
 - Use Variables instead of hardcoded items
 - Organize the build into stages
 - Add a Git trigger
-- Add annotations
+- Add annotations to built images
 
 ### Phase 3 - Kubernetes
 
-- Create a namespace that is dynamic based on branch and commit id
-- Deploy the file Kubernetes manifest
+- Dynamically create a namespace based on branch and commit id
+- Deploy the app using Kubernetes manifest
 
 ### Phase 4 - Fault Tolerance
 
-- Add items to steps to make sure the build won't fail
+- Add items to steps to make sure the build won't fail on allowable errors
 - Retry items as well
 
 ### Phase 5 - Helm (bonus)
 
-- Create a namespace that is dynamic based on branch and commit id
+- Dynamically create a namespace based on branch and commit id
 - Deploy the helm chart with the built images from in the pipeline
 
 ## Names Of Contexts / Integrations
@@ -52,7 +52,7 @@ Kubernetes Cluster: k8s-interview
 
 ## Docker image
 
-Images start with `cfsupport`. For example `cfsupport/mian:latest`
+Images start with `cfsupport`. For example `cfsupport/main:latest`
 
 ## Directory Structure of the Repository
 
