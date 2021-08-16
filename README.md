@@ -44,7 +44,7 @@ Below is a description of what we will cover in each phase of the interview. Wil
 
 ## Names Of Contexts / Integrations
 
-Docker: cf-support
+Docker Registry: cf-support
 
 Git: cf-support-bot
 
