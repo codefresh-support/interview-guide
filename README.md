@@ -44,7 +44,7 @@ Below is a description of what we will cover in each phase of the interview. Wil
 
 ## Names Of Contexts / Integrations
 
-Docker: cf-support
+Docker Registry: cfsupport
 
 Git: cf-support-bot
 
@@ -52,7 +52,7 @@ Kubernetes Cluster: k8s-interview
 
 ## Docker image
 
-Images start with `cfsupport`. For example `cfsupport/main:latest`
+Images start with `cfsupport`. For example `cfsupport/myimagename:mytag`
 
 ## Directory Structure of the Repository
 
