@@ -1,6 +1,10 @@
 # Codefresh Interview
 
-The interview will be a live troubleshooting project based on the Codefresh project.  You can sign up beforehand (it is free), but we will send an invitation to our account for the interview. Below are some general items to review before the interview.
+The technical component of our interview is a troubleshooting project. This document outlines the steps involved. We do not require the full test to be completed, and it is your approach to solving problems and your learning process that we are most interested in.
+
+As part of the interview process, we will send an invitation to a Codefresh account to you for you to join and some resources with additional instructions. 
+
+Below are some general items to review before the interview.
 
 - Codefresh YAML
 - Codefresh steps/plugins
@@ -12,47 +16,51 @@ The interview will be a live troubleshooting project based on the Codefresh proj
 
 ## Interview Phases
 
-Below is a description of what we will cover in each phase of the interview. Will provide aditional information during the interview as well.
+Below is a description of what we will cover in each phase of the interview. Will provide additional information during the interview as well.
 
-### Phase 1 - YAML Validation
+### Phase 1 - Setup
+
+- Accept the invitation to a Codefresh account
+- Set up some external services
+- Deploy Minikube
+- Install the Classic Runner for Codefresh using a Helm chart
+
+### Phase 2 - YAML Validation
 
 - Correct the provided YAML
 - Make sure there are no YAML Validation Errors
 
-### Phase 2 - Misconfigurations
+### Phase 3 - Misconfigurations
 
-- Troubleshoot misconfigured steps (codefresh official steps)
+- Troubleshoot misconfigured steps (Codefresh official steps)
 - Use Variables instead of hardcoded items
 - Organize the build into stages
 - Add a Git trigger
 - Add annotations to built images
 
-### Phase 3 - Kubernetes
+### Phase 4 - Kubernetes
 
 - Dynamically create a namespace based on branch and commit id
 - Deploy the app using Kubernetes manifest
 
-### Phase 4 - Fault Tolerance
+### Phase 5 - Schedule the Next Interview
+
+- Once you have reached this point, schedule the next interview stage with us, and feel free to continue.
+
+### Phase 6 - Fault Tolerance
 
 - Add items to steps to make sure the build won't fail on allowable errors
 - Retry items as well
 
-### Phase 5 - Helm (bonus)
+### Phase 7 - Helm (bonus points!)
 
 - Dynamically create a namespace based on branch and commit id
-- Deploy the helm chart with the built images from in the pipeline
+- Deploy the helm chart with the built images from the pipeline
 
-## Names Of Contexts / Integrations
+### Phase 8 - Documentation (bonus points!)
 
-Docker Registry: cfsupport
+- Write up the technical steps you went through for Phase 1, part 7 as if you were explaining the process to a customer via email, blog post, or similar.
 
-Git: cf-support-bot
-
-Kubernetes Cluster: k8s-interview
-
-## Docker image
-
-Images start with `cfsupport`. For example `cfsupport/myimagename:mytag`
 
 ## Directory Structure of the Repository
 
