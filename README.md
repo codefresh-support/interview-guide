@@ -52,7 +52,7 @@ Below is a description of what we will cover in each phase of the interview. Wil
 - Add items to steps to make sure the build won't fail on allowable errors
 - Retry items as well
 
-### Phase 7 - Helm (bonus points!)
+### Phase 7 - Helm
 
 - Dynamically create a namespace based on branch and commit id
 - Deploy the helm chart with the built images from the pipeline
@@ -60,6 +60,14 @@ Below is a description of what we will cover in each phase of the interview. Wil
 ### Phase 8 - Documentation (bonus points!)
 
 - Write up the technical steps you went through for Phase 1, part 7 as if you were explaining the process to a customer via email, blog post, or similar.
+
+### Phase 9 - Hybrid GitOps Runtime Deployment (bonus points!)
+
+- Follow Codefresh documentation to install the GitOps Runtime into your MiniKube cluster.
+
+### Phase 10 - Application Deployment (bonus points!)
+
+- Using the Helm chart from Phase 7 and the new GitOps Runtime, deploy the application using Codefresh + Argo CD as a new GitOps based app
 
 
 ## Directory Structure of the Repository
